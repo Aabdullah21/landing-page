@@ -5,11 +5,17 @@
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
 }
 
 .upper {
     background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
 }
 
 .main-title {
@@ -22,14 +28,17 @@ body {
 .main-par {
     font-size: 18px;
     color: #E5E7EB;
+
+
 }
 
 .header {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin-top: 10px;
     display: flex;
     gap: 16px;
+    width: 1030px;
 }
 
 .logo {
@@ -37,4 +46,136 @@ body {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
+    width: 450px;
+}
+
+.main {
+    display: flex;
+    margin: auto;
+    gap: 30px;
+}
+
+.content {
+    width: 450px;
+    align-self: center;
+}
+
+.main-button {
+    background-color: #3882F6;
+    padding: 8px 28px;
+    color: #F9FAF8;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+img {
+    width: 550px;
+    height: 300px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.mid-up {
+    text-align: center;
+}
+
+h2.title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin: 32px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.imex {
+    width: 250px;
+    height: 250px;
+    margin: 16px;
+}
+
+.mid-up img {
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+    border-radius: 10px;
+}
+
+
+.mid-down {
+    background-color: #E5E7EB;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.down-content {
+
+    width: 815px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.name {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.lower {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.attention {
+    background-color: #3882F6;
+    width: 1000px;
+    border-radius: 10px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 52px;
+}
+
+.att-mess h2 {
+
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.att-mess p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.lower-button {
+    border: 2px solid #F9FAF8;
+}
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.foot-mess {
+    color: #E5E7EB;
 }
